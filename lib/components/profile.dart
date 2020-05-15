@@ -1,14 +1,34 @@
 import 'package:flutter/material.dart';
 import 'package:instagram_clone/models/profile_stats.dart';
 import 'package:flutter_icons/flutter_icons.dart';
+import 'package:instagram_clone/screens/login_screen.dart';
 
 class Profile extends StatelessWidget {
   final profile = ProfileStats(
-      username: 'username',
-      avatar: 'assets/blank-user.jpg',
-      posts: 0,
-      followers: 0,
-      following: 18);
+    username: 'username',
+    avatar: 'assets/blank-user.jpg',
+    posts: 0,
+    followers: 0,
+    following: 18,
+  );
+
+  Widget buildBottomSheet(BuildContext context) {
+    return Container(
+      child: FlatButton(
+        onPressed: () {
+          Navigator.pushReplacementNamed(context, LoginScreen.id);
+        },
+        child: Text(
+          'Log Out',
+          style: TextStyle(
+            color: Colors.lightBlue,
+            fontSize: 16,
+          ),
+        ),
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -24,7 +44,10 @@ class Profile extends StatelessWidget {
         ),
         actions: <Widget>[
           IconButton(
-              onPressed: () {},
+              onPressed: () {
+                showModalBottomSheet(
+                    context: context, builder: buildBottomSheet);
+              },
               icon: Icon(Ionicons.ios_options, color: Colors.black)),
         ],
       ),
