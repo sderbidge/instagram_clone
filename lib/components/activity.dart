@@ -4,43 +4,35 @@ import 'package:instagram_clone/models/suggestion.dart';
 class Activity extends StatelessWidget {
   final List<Suggestion> _suggestions = [
     Suggestion(
-        avatar:
-            'https://s3.amazonaws.com/uifaces/faces/twitter/dallasbpeters/128.jpg',
+        avatar: 'assets/blank-user.jpg',
         username: 'Carmine',
         description: 'Dolor dignissimos quae...'),
     Suggestion(
-        avatar:
-            'https://s3.amazonaws.com/uifaces/faces/twitter/herrhaase/128.jpg',
+        avatar: 'assets/blank-user.jpg',
         username: 'Davon',
         description: 'Officiis officia labor deca...'),
     Suggestion(
-        avatar:
-            'https://s3.amazonaws.com/uifaces/faces/twitter/adammarsbar/128.jpg',
+        avatar: 'assets/blank-user.jpg',
         username: 'Michele',
         description: 'Sit cupiditate ducimus...'),
     Suggestion(
-        avatar:
-            'https://s3.amazonaws.com/uifaces/faces/twitter/marosholly/128.jpg',
+        avatar: 'assets/blank-user.jpg',
         username: 'Arielle',
         description: 'Autem nisi inventore a...'),
     Suggestion(
-        avatar:
-            'https://s3.amazonaws.com/uifaces/faces/twitter/normanbox/128.jpg',
+        avatar: 'assets/blank-user.jpg',
         username: 'Marc',
         description: 'Placeat qui quae asper...'),
     Suggestion(
-        avatar:
-            'https://s3.amazonaws.com/uifaces/faces/twitter/reabo101/128.jpg',
+        avatar: 'assets/blank-user.jpg',
         username: 'Watson',
         description: 'Fuga tempora ipsum vol...'),
     Suggestion(
-        avatar:
-            'https://s3.amazonaws.com/uifaces/faces/twitter/motionthinks/128.jpg',
+        avatar: 'assets/blank-user.jpg',
         username: 'Elliot',
         description: 'Mollitia reprehenderit he...'),
     Suggestion(
-        avatar:
-            'https://s3.amazonaws.com/uifaces/faces/twitter/ZacharyZorbas/128.jpg',
+        avatar: 'assets/blank-user.jpg',
         username: 'Howell',
         description: 'Eveniet enim autem fug...'),
   ];

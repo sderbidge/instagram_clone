@@ -43,55 +43,57 @@ class Feed extends StatelessWidget {
 
   final List<Post> posts = [
     Post(
-      username: "Amya",
-      userImage: "https://s3.amazonaws.com/uifaces/faces/twitter/suprb/128.jpg",
+      username: "Gabriella",
+      userImage:
+          "https://images.pexels.com/photos/1845534/pexels-photo-1845534.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       postImage:
           "https://images.pexels.com/photos/1252983/pexels-photo-1252983.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       caption: "Alias omnis quo tenetur id.",
     ),
     Post(
-      username: "Eldon",
+      username: "Tiffany",
       userImage:
-          "https://s3.amazonaws.com/uifaces/faces/twitter/beweinreich/128.jpg",
+          "https://images.pexels.com/photos/1587009/pexels-photo-1587009.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       postImage:
           "https://images.pexels.com/photos/597049/paris-france-eiffel-tower-597049.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       caption: "Eum atque praesentium animi quae.",
     ),
     Post(
-      username: "Emmalee",
-      userImage: "https://s3.amazonaws.com/uifaces/faces/twitter/idiot/128.jpg",
+      username: "Justin",
+      userImage:
+          "https://images.pexels.com/photos/936229/pexels-photo-936229.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       postImage:
           "https://images.pexels.com/photos/1830937/pexels-photo-1830937.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       caption: "Beatae perferendis et sit.",
     ),
     Post(
-      username: "Giovanny",
+      username: "Jackson",
       userImage:
-          "https://s3.amazonaws.com/uifaces/faces/twitter/BroumiYoussef/128.jpg",
+          "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       postImage:
           "https://images.pexels.com/photos/2245436/pexels-photo-2245436.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       caption: "Dolor non atque praesentium sit sed ullam vel animi.",
     ),
     Post(
-      username: "Kayden",
+      username: "Sylvester",
       userImage:
-          "https://s3.amazonaws.com/uifaces/faces/twitter/vanchesz/128.jpg",
+          "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
       postImage:
           "https://images.pexels.com/photos/1390200/pexels-photo-1390200.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       caption: "Ut aut omnis modi.",
     ),
     Post(
-      username: "Clement",
+      username: "Jazmin",
       userImage:
-          "https://s3.amazonaws.com/uifaces/faces/twitter/Karimmove/128.jpg",
+          "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       postImage:
           "https://images.pexels.com/photos/373912/pexels-photo-373912.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       caption: "Accusantium nesciunt esse atque aperiam.",
     ),
     Post(
-      username: "Marilyne",
+      username: "Lavina",
       userImage:
-          "https://s3.amazonaws.com/uifaces/faces/twitter/_shahedk/128.jpg",
+          "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       postImage:
           "https://images.pexels.com/photos/161154/stained-glass-spiral-circle-pattern-161154.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       caption: "Iure sed et consequatur occaecati enim ea.",
